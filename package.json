@@ -1,0 +1,13 @@
+{
+  "name": "av-icl-02-sentimentos",
+  "version": "1.0.0",
+  "description": "AV-ICL-02 — Análise de sentimento de comentários com Azure Functions, Azure AI Language, Storage Queue e SQL Server",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/ai-text-analytics": "^5.1.0",
+    "@azure/functions": "^4.0.0"
+  }
+}
